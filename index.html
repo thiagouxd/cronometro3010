@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro 3010</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+
+<body>
+    <span class="contador" id="contador">00</span>
+
+    <audio src="./audio/Alarm Clock.mp3"></audio>
+
+    <div class="botoes">
+        <button type="button" onclick="contar(30, 10)" class="botao" id="botaoDeStart">
+            <i data-feather="play" width="40" height="40"></i> Start
+        </button>
+        <button type="button" onclick="pararAContagem()" class="botao botao_black escondido" id="botaoDeStop">
+            <i data-feather="square" width="40" height="40"></i>
+            Stop
+        </button>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+
+<script>
+    feather.replace()
+</script>
+
+</html>

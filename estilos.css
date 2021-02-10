@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #22202b;
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+}
+
+.botao {
+    padding: 48px;
+    font-weight: 600;
+    font-size: 40px;
+    border: 0;
+    border-radius: 80px;
+    background-color: #f7edd8;
+    color: #22202b;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao .feather {
+    margin-right: 16px;
+}
+
+.botao:hover,
+.botao:focus {
+    opacity: 0.8;
+    transform: translate(0, -4px);
+}
+
+.botao_black {
+    background-color: #000;
+    color: #f7edd8;
+}
+
+.contador {
+    display: block;
+    font-size: 160px;
+    text-align: center;
+    margin: 80px 0;
+    color: #f7edd8;
+}
+
+.escondido {
+    display: none;
+}
